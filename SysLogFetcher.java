@@ -1,4 +1,4 @@
-package com.rim.test.syslog.logfetcher;
+package test.syslog.logfetcher;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -16,7 +16,7 @@ import org.apache.http.impl.client.HttpClients;
 
 public class SysLogFetcher
 {
-    private static final String SYS_URL = "http://bbssyslog01.bbs.testnet.rim.net/besng/UOS/NG-Chakotay01/20131002/uos.log";
+    private static final String SYS_URL = "http://server1.test.net/UOS/NG-Chakotay01/20131002/uos.log";
 
     /**
      * @param args
